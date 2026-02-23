@@ -1,4 +1,4 @@
 FROM httpd:latest
 MAINTAINER rakesh@gmail.com
-COPY . /var/www/html
+COPY . /usr/local/apache2/htdocs/
 
