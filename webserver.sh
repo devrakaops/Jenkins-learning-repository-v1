@@ -1,4 +1,4 @@
 #!/bin/bash
 
-yum install -y nginx
-systemctl enable --now  nginx
+sudo apt-get install -y nginx
+sudo systemctl enable --now  nginx
